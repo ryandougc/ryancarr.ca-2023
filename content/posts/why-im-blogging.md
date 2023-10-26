@@ -1,4 +1,16 @@
-# Blogging
+---
+author:
+  name: "Ryan Carr"
+date: 2023-10-26
+linktitle: Why I'm Blogging
+type:
+- post
+- posts
+title: Why I'm Blogging
+weight: 10
+series:
+- Hugo 101
+---
 
 As easy as it is writing in Notion, I want a blogging platform so that I can show off the stuff that I build. Lots of people on Reddit have talked about how having a blog to document what you do with your homelab can actually be better than having a certificate for IT. It could help get a job. 
 
