@@ -1,4 +1,4 @@
-baseurl      = "ryancarr.ca"
+baseurl      = "/"
 title        = "Ryan Carr"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
