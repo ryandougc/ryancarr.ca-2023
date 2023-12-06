@@ -165,13 +165,13 @@ pluralizeListTitles = false
   #   maxWidth = "50px"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/ryanvoiture"
+#  [[params.social]]
+#    name = "twitter"
+#    url  = "https://twitter.com/ryanvoiture"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:hello@ryancarr.ca"
+    url  = "mailto:ryan@ryancarr.ca"
 
   [[params.social]]
     name = "github"

@@ -59,6 +59,12 @@
     border-radius: 15px;
 
     box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.15);
+
+    transition: 300ms ease;
+}
+.project-large:hover {
+    transform: scale(1.015);
+    transition: 300ms ease;
 }
 /**/.project-large__image {
         width: 250px;
@@ -119,6 +125,12 @@
     text-align: left;
 
     box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.15);
+
+    transition: 300ms ease;
+}
+.project-small:hover {
+    transform: scale(1.015);
+    transition: 300ms ease;
 }
 /**/.project-small__info {
         height: 165px;
@@ -177,6 +189,10 @@ ul, ol {
     @media (max-width: 684px) {
         margin-left: 20px;
     }
+}
+
+a {
+    text-decoration: none;
 }
 
 #navbar-container {
