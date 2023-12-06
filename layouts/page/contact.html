@@ -13,6 +13,10 @@
 
             {{ partial "subtitle.html" . }}
 
+            <br />
+
+            <p style="margin-bottom: 2rem;">Email is the easiest platform to reach me.</p>
+
             {{- with .Site.Params.social }}
                 <div>
                     {{ partial "social-icons.html" . }}
@@ -21,3 +25,4 @@
         </div>
     </main>
 {{ end }}
+

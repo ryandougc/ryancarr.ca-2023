@@ -4,16 +4,183 @@
 
 {{ define "main" }}
     <main aria-role="main">
-        <div>
+        <div style="width: 100vw;">
             {{ if .Site.Params.Portrait.Path }}
                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
 
-            <h1>{{ .Site.Title }}</h1>
+            <div id="masthead-container">
+                <div class="masthead">
+                    <h2 class="masthead__title">Ryan Carr</h2>
+        
+                    <p class="masthead__description_1">
+                        I craft solution to problems.
+                    </p>
+                    <br />
+                    <p class="masthead__description_2">
+                        Usually that involves code, servers, and design. Some people call that a
+                    </p>
+                    <br />
+                    <h4 class="masthead_job-title">"Full-Stack Engineer"</h4>
+                </div>
+            </div>
+        
+            <div id="project-container">
+                <div id="work-projects">
+                    <h4 class="work-projects__title">WORK</h4>
+                    <p class="work-projects__description">Sometimes I solve business problems</p>
+        
+                    <div class="work-projects__project project-large">
+                        <img class="project-large__image" src="/icons/API-Icon.jpg" alt="">
+                        <div class="project-large__info">
+                            <div class="project-large__info__project-details">
+                                <p class="project-large__info__project-details__name">AmazonPPC</p>
+                                <p class="project-large__info__project-details__description">Client Audit Webhook API</p>
+                            </div>
+                            <div class="project-large__info__role-details">
+                                <p class="project-large__info__role-details__title">Role</p>
+                                <ul class="project-large__info__role-details__roles">
+                                    <li>Back-end Engineer</li>
+                                    <li>Dev-ops</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="work-projects__project project-large">
+                        <img class="project-large__image" src="/icons/Server-Icon.jpg" alt="">
+                        <div class="project-large__info">
+                            <div class="project-large__info__project-details">
+                                <p class="project-large__info__project-details__name">K9DetectionSports</p>
+                                <p class="project-large__info__project-details__description">CRM Dashboard and Website</p>
+                            </div>
+                            <div class="project-large__info__role-details">
+                                <p class="project-large__info__role-details__title">Role</p>
+                                <ul class="project-large__info__role-details__roles">
+                                    <li>Full-stack Engineer</li>
+                                    <li>Project Manager</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div id="personal-projects">
+                    <h4 class="personal-projects__title">PERSONAL</h4>
+                    <p class="personal-projects__description">Sometimes I solve personal problems</p>
+        
+                    <div class="personal-projects__project project-large">
+                        <img class="project-large__image" src="/icons/Speakers-Icon.jpg" alt="">
+                        <div class="project-large__info">
+                            <div class="project-large__info__project-details">
+                                <p class="project-large__info__project-details__name">SpotSesh</p>
+                                <p class="project-large__info__project-details__description">Social Music Player</p>
+                            </div>
+                            <div class="project-large__info__role-details">
+                                <p class="project-large__info__role-details__title">Role</p>
+                                <ul class="project-large__info__role-details__roles">
+                                    <li>Full-stack Engineer</li>
+                                    <li>Designer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="personal-projects__project project-large">
+                        <img class="project-large__image" src="/icons/Dashboard-Icon.jpg" alt="">
+                        <div class="project-large__info">
+                            <div class="project-large__info__project-details">
+                                <p class="project-large__info__project-details__name">Tastify</p>
+                                <p class="project-large__info__project-details__description">Music Analysis Tool</p>
+                            </div>
+                            <div class="project-large__info__role-details">
+                                <p class="project-large__info__role-details__title">Role</p>
+                                <ul class="project-large__info__role-details__roles">
+                                    <li>Back-end Engineer</li>
+                                    <li>Team Lead</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div id="side-projects">
+                    <h4 class="side-projects__title">SIDE PROJECTS</h4>
 
-            <div>
-		I solve problems.
-	    </div>
+                    <div class="side-projects__project project-small">
+                        <div class="project-small__info">
+                            <div class="project-small__info__project-details">
+                                <p class="project-small__info__project-details__name">IT & Networks
+                                <p class="project-small__info__project-details__description">Homelab Automation</p>
+                            </div>
+                            <!-- <div class="project-small__info__role-details">
+                                <p class="project-small__info__role-details__title">Role</p>
+                                <ul class="project-small__info__role-details__roles">
+                                    <li>Automation</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+        
+                    <div class="side-projects__project project-small">
+                        <div class="project-small__info">
+                            <div class="project-small__info__project-details">
+                                <p class="project-small__info__project-details__name">Algorithm Newsletter</p>
+                                <p class="project-small__info__project-details__description">Email Newsletter Platform</p>
+                            </div>
+                            <!-- <div class="project-small__info__role-details">
+                                <p class="project-small__info__role-details__title">Role</p>
+                                <ul class="project-small__info__role-details__roles">
+                                    <li>Back-end Engineer</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+        
+                    <div class="side-projects__project project-small">
+                        <div class="project-small__info">
+                            <div class="project-small__info__project-details">
+                                <p class="project-small__info__project-details__name">Discord Bot</p>
+                                <p class="project-small__info__project-details__description">Dungeons & Dragons Dice Roller</p>
+                            </div>
+                            <!-- <div class="project-small__info__role-details">
+                                <p class="project-small__info__role-details__title">Role</p>
+                                <ul class="project-small__info__role-details__roles">
+                                    <li>Back-end Engineer</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+        
+                    <div class="side-projects__project project-small">
+                        <div class="project-small__info">
+                            <div class="project-small__info__project-details">
+                                <p class="project-small__info__project-details__name">Notion Template</p>
+                                <p class="project-small__info__project-details__description">Nic Cage Movie Tracker</p>
+                            </div>
+                            <!-- <div class="project-small__info__role-details">
+                                <p class="project-small__info__role-details__title">Role</p>
+                                <ul class="project-small__info__role-details__roles">
+                                    <li>Automation</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="contact-me-container">
+                <div class="contact-me">
+                    <h4 class="contact-me__title">I am looking for new problems to solve</h4>
+                    <p class="contact-me__description">
+                        If you are in need of a full-stack engineer, I would love to chat to see if my skillset will fit your role.
+                    </p>
+                    <button class="contact-me__lets-chat-btn" onclick="window.location='/contact'">
+                        Let's Chat!
+                    </button>
+                </div>
+            </div>
+
         </div>
     </main>
 {{ end }}

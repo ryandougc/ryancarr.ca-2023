@@ -312,15 +312,15 @@ blockquote {
   }
 }
 
-ul,
-ol {
-  margin-left: 40px;
-  padding: 0;
+// ul,
+// ol {
+//   // margin-left: 40px;
+//   padding: 0;
 
-  @media #{$media-size-phone} {
-    margin-left: 20px;
-  }
-}
+//   @media #{$media-size-phone} {
+//     margin-left: 20px;
+//   }
+// }
 
 ol ol {
   list-style-type: lower-alpha;
